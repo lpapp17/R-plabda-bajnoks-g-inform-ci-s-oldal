@@ -1,15 +1,21 @@
-<div class="login-container">
-    <h2 style="align-items: center">Bejelentkezés</h2>
-    <form method="POST">
-        <div class="input-group" style="align-items: flex-start">
-            <label for="email">Email cím</label>
-            <input type="text" id="email" name="email" required>
-        </div>
-        <div class="input-group">
-            <label for="jelszó" style="align-items: flex-start">Jelszó</label>
-            <input type="password" id="jelszó" name="jelszó" required>
-        </div>
-        <p>Ha még nem regisztráltál: <a routerLink="/register">Fiók létrehozása</a></p>
-        <button type="submit" >Bejelentkezés</button>
-    </form>
+<div id="center">
+    <div class="login-container">
+        <h2><u>KRSZ Röplabda bajnokság információs oldal</u></h2>
+        
+        <h2 style="align-items: center">Bejelentkezés</h2>
+        <form (ngSubmit)="login()" method="POST">
+            <div class="input-group" style="align-items: flex-start">
+                <label for="email">Email cím</label>
+                <input id="email" matInput type="email" [formControl]="email" required>
+            </div>
+            <div class="input-group">
+                <label for="jelszó" style="align-items: flex-start">Jelszó</label>
+                <input id="jelszó" matInput type="password" [formControl]="password" required>
+            </div>
+            <p>Ha még nem regisztráltál: <a routerLink="/register">Fiók létrehozása</a></p>
+            <button type="submit" >Bejelentkezés</button>
+            <img src="images/logo.png">
+        </form>
+    </div>
 </div>
+

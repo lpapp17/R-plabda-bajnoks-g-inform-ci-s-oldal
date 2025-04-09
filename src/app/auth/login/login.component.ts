@@ -24,7 +24,7 @@ import { CommonModule } from '@angular/common';
     RouterLink
   ],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+  styleUrl: './login.component.css'
 })
 export class LoginComponent {
   email = new FormControl('');
@@ -38,7 +38,7 @@ export class LoginComponent {
   login() {
     this.loginError = '';
     
-    if (this.email.value === 'test@gmail.com' && this.password.value === 'testpw') {
+    if (this.email.value === 'admin@admin.com' && this.password.value === 'admin') {
       this.isLoading = true;
       this.showLoginForm = false;
       

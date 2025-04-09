@@ -3,7 +3,7 @@ import { RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-register',
-  imports: [RouterLink,RouterLinkActive],
+  imports: [RouterLink],
   templateUrl: './register.component.html',
   styleUrl: './register.component.css'
 })

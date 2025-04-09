@@ -1,45 +1,50 @@
-<div class="login-container">
-    <h2 style="align-items: center">Regisztráció</h2>
-    <form method="POST">
+<div id="center">
+    <div class="login-container">
+        <h2><u>KRSZ Röplabda bajnokság információs oldal</u></h2>
+        <h2 style="align-items: center">Regisztráció</h2>
+        <form method="POST">
 
-        <div class="input-group" style="align-items: flex-start">
-            <label for="név">Teljes név</label>
-            <input type="text" id="név" name="név" required>
-        </div>
+            <div class="input-group" style="align-items: flex-start">
+                <label for="név">Teljes név</label>
+                <input type="text" id="név" name="név" required>
+            </div>
 
-        <div class="input-group" style="align-items: flex-start">
-            <label for="email">Email cím</label>
-            <input type="text" id="email" name="email" required>
-        </div>
+            <div class="input-group" style="align-items: flex-start">
+                <label for="email">Email cím</label>
+                <input type="text" id="email" name="email" required>
+            </div>
 
-        <div class="input-group">
-            <label for="jelszó" style="align-items: flex-start">Jelszó</label>
-            <input type="password" id="jelszó" name="jelszó" required>
-        </div>
+            <div class="input-group">
+                <label for="jelszó" style="align-items: flex-start">Jelszó</label>
+                <input type="password" id="jelszó" name="jelszó" required>
+            </div>
 
-        <div class="input-group" style="align-items: flex-start">
-            <label for="telefon">Telefonszám</label>
-            <input type="tel" id="telefon" name="telefon" required>
-        </div>
+            <div class="input-group" style="align-items: flex-start">
+                <label for="telefon">Telefonszám</label>
+                <input type="tel" id="telefon" name="telefon" required>
+            </div>
 
-        <div class="input-group" style="align-items: flex-start">
-            <label for="birthdate">Születési dátum:</label>
-            <input type="date" id="birthdate" name="birthdate" required>
-        </div>
+            <div class="input-group" style="align-items: flex-start">
+                <label for="birthdate">Születési dátum:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
 
-        <div class="input-group" style="align-items: flex-start">
-            <label for="nem">Válassza ki a nemét:</label>
-            <select id="nem" name="gender" required>
-                <option value="ferfi">Férfi</option>
-                <option value="no">Nő</option>
-                <option value="egyeb">Egyéb</option>
-                <option value="nem-megadni">Nem szeretném megadni</option>
-            </select>
-        </div>
+            <div class="input-group" style="align-items: flex-start">
+                <label for="nem">Válassza ki a nemét:</label>
+                <select id="nem" name="gender" required>
+                    <option value="ferfi">Férfi</option>
+                    <option value="no">Nő</option>
+                    <option value="egyeb">Egyéb</option>
+                    <option value="nem-megadni">Nem szeretném megadni</option>
+                </select>
+            </div>
 
 
 
-        <p>Ha már van fiókod kattints <a routerLink="/login"> ide</a>!</p>
-        <button type="submit" >Regisztrálás</button>
-    </form>
+            <p>Ha már van fiókod kattints <a routerLink="/login"> ide</a>!</p>
+            <button type="submit" >Regisztrálás</button>
+        </form>
+    </div>
+</div>
+
 

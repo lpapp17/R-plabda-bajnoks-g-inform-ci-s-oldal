@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
-import { MenuComponent } from '../../shared/menu/menu.component';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterOutlet, HomeComponent,MenuComponent],
+  imports: [RouterOutlet, HomeComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

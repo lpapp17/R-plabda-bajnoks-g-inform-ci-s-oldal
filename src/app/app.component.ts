@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet, RouterLink } from '@angular/router';
-import { MenuComponent } from './shared/menu/menu.component';
 import { MatSidenav, MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -16,8 +15,7 @@ import { CommonModule } from '@angular/common';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    RouterLink,
-    MenuComponent],
+    ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
