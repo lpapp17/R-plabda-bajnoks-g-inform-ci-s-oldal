@@ -1,0 +1,44 @@
+.header {
+  background-color: gold;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 10;
+  text-align: center;
+  min-height: 100px;
+}
+
+.title {
+  padding-left: 0;
+  margin-left: 50px; 
+  font-size: 16;
+}
+
+.menu {
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display: flex;
+  gap: 20px; 
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.menu a:hover {
+  background-color: #075ee0;
+  border-radius: 5px;
+}
